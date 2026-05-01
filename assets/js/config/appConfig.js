@@ -13,8 +13,8 @@
       ownerId: "",
       schedule: {
         enabled: true,
-        //snapshotMaxAgeMinutes: 60,
-        snapshotMaxAgeMinutes: 5,
+        snapshotMaxAgeMinutes: 60,
+        //snapshotMaxAgeMinutes: 5,
       },
       lock: {
         acquireUrl: "https://form15-nocodb-proxy.superaguero1999.workers.dev/snapshot/lock/acquire",
@@ -166,8 +166,8 @@
     fileKey: "form15.testben.file-cache.v1",
     ttlMs: 1000 * 60 * 30,
     fileTtlMs: 1000 * 60 * 60 * 6,
-    //autoRefreshMs: 1000 * 60 * 10,
-    autoRefreshMs: 1000 * 60 * 1,
+    autoRefreshMs: 1000 * 60 * 10,
+    //autoRefreshMs: 1000 * 60 * 1,
   };
 
   global.Form15Config = { CONFIG, CACHE_CONFIG };
