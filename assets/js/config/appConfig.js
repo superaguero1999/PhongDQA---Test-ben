@@ -13,7 +13,7 @@
       ownerId: "",
       schedule: {
         enabled: true,
-        snapshotMaxAgeMinutes: 60,
+        snapshotMaxAgeMinutes: 5,
       },
       lock: {
         acquireUrl: "https://form15-nocodb-proxy.superaguero1999.workers.dev/snapshot/lock/acquire",
